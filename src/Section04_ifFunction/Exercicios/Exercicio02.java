@@ -1,19 +1,20 @@
-package Section04_ifFunction;
+package Section04_ifFunction.Exercicios;
 
 import java.util.Scanner;
 
-public class Exercicio01 {
+public class Exercicio02 {
     public static void main(String[] args) {
         Scanner write = new Scanner(System.in);
         int num;
+
         System.out.print("Digite um número: ");
         num = write.nextInt();
         write.nextLine();
 
-        if(num > 0) {
-            System.out.println("Número positivo");
+        if( num % 2 == 0) {
+            System.out.println("Número é par");
         } else {
-            System.out.println("Número não é positivo");
+            System.out.println("Número é impar");
         }
         write.close();
     }

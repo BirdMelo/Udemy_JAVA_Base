@@ -1,4 +1,4 @@
-package Section04_ifFunction;
+package Section04_ifFunction.Exemplos;
 
 public class Exemplo01 {
     public static void main(String[] args) {

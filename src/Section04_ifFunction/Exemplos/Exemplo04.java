@@ -1,4 +1,4 @@
-package Section04_ifFunction;
+package Section04_ifFunction.Exemplos;
 
 import java.util.Scanner;
 
