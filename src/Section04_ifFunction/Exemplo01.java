@@ -1,5 +1,12 @@
-public class Main {
+package Section04_ifFunction;
+
+public class Exemplo01 {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        int idade = 20;
+        if(idade >= 18) {
+            System.out.println("Maior de idade");
+        } else {
+            System.out.println("Menor de idade");
+        }
     }
 }

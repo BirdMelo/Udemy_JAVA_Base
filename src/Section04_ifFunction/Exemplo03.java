@@ -1,8 +1,14 @@
 package Section04_ifFunction;
 
-public class Exemplo02 {
+import java.util.Scanner;
+
+public class Exemplo03 {
     public static void main(String[] args) {
-        double nota = 6.0;
+        Scanner write = new Scanner(System.in);
+
+        System.out.println("Digite a nota do aluno: ");
+        double nota = write.nextDouble();
+
         if(nota >= 7) {
             System.out.println("Aluno aprovado");
         } else if (nota >= 5.0) {
@@ -10,5 +16,6 @@ public class Exemplo02 {
         } else {
             System.out.println("Aluno reprovado");
         }
+        write.close();
     }
 }
