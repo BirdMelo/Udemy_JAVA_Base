@@ -21,6 +21,6 @@ public class Exercicio08 {
         } else {
             System.out.printf("Média: %.1f | Recuperação", avg);
         }
-
+        write.close();
     }
 }
