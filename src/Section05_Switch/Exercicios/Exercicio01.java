@@ -33,5 +33,6 @@ public class Exercicio01 {
             default:
                 System.out.println("Escolha entre 1 e 7");
         }
+        write.close();
     }
 }

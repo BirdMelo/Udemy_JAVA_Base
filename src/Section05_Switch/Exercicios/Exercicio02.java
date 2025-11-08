@@ -36,5 +36,6 @@ public class Exercicio02 {
             default:
                 System.out.println("Operador escolhido errado");
         }
+        write.close();
     }
 }
