@@ -1,6 +1,6 @@
 package Section06_While.Exercicios;
 
-public class Exemplo02 {
+public class Exercicio02 {
     public static void main(String[] args) {
         int num = 0;
         while (num <= 50) {
